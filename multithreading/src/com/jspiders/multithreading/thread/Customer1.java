@@ -11,7 +11,7 @@ public class Customer1 extends Thread{
 	
 	@Override
 	public void run(){
-		cake.orderedCakes(5);
+		cake.orderedCakes(6);
 	}
 
 }
