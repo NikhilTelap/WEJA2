@@ -80,7 +80,7 @@ public class CompanyDAO {
 
 		entityManager.persist(employee3);
 		entityManager.persist(company);
-
+		
 		
 		entityTransaction.commit();
 		closeConnection();
